@@ -1,0 +1,56 @@
+/* CSS de la pagina principal  */
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f6e0ff 0%, #fbf8fc 100%);
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 40px;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+}
+
+h1 {
+  color: #5a247b;
+  font-size: 2.5rem;
+  margin-bottom: 24px;
+  letter-spacing: 2px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px 24px;
+  max-width: 480px;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+label {
+  font-weight: 500;
+  color: #7c1d99;
+  margin-bottom: 8px;
+  display: block;
+}
+
+textarea, input[type="text"] {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #b6c2e1;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-bottom: 16px;
+  transition: border-color 0.2s;
+}
+textarea:focus, input[type="text"]:focus {
+  border-color: #821d99;
+  outline: none;
+}
+
+button {
+  background: linear-gradient(90deg, #761d99 0%, #cf61fb 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 24px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
